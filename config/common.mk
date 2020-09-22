@@ -95,3 +95,6 @@ $(call inherit-product, vendor/hentai/config/versioning.mk)
 
 # Inherit from GMS product config
 $(call inherit-product, vendor/gms/gms_full.mk)
+
+# Build fingerprint
+include vendor/hentai/config/fingerprint.mk
