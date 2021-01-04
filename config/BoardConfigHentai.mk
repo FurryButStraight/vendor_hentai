@@ -1,6 +1,8 @@
 # Kernel
 ifeq ($(LOCAL_KERNEL),)
 include vendor/hentai/config/BoardConfigKernel.mk
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/hentai/build/soong/generator
 endif
 
 # Qcom-specific bits
