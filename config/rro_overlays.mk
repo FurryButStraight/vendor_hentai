@@ -40,6 +40,8 @@ PRODUCT_PACKAGES += \
 # Hentai Overlays
 PRODUCT_PACKAGES += \
     HentaiConfigOverlay \
+    HentaiWallpaperBlack \
+    HentaiWallpaperDark \
     PixelSetupWizardOverlayHentai \
     SettingsGoogleOverlayHentai
 
