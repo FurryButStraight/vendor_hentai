@@ -87,9 +87,6 @@ $(call inherit-product, vendor/hentai/config/fonts.mk)
 # Inherit from rro_overlays config
 $(call inherit-product, vendor/hentai/config/rro_overlays.mk)
 
-# Inherit from sepolicy config
-$(call inherit-product, vendor/hentai/config/sepolicy.mk)
-
 # Inherit from textclassifier config
 $(call inherit-product, vendor/hentai/config/textclassifier.mk)
 

@@ -12,3 +12,8 @@ endif
 
 # Soong
 include vendor/hentai/config/BoardConfigSoong.mk
+
+# Hello Furries!
+ifneq ($(wildcard device/furry/sepolicy/common/sepolicy.mk),)
+$(eval include device/furry/sepolicy/common/sepolicy.mk)
+endif
