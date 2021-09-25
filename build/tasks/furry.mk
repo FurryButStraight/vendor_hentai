@@ -24,5 +24,5 @@ furry: $(INTERNAL_OTA_PACKAGE_TARGET)
 	@echo -e "\t Zip: $(FURRY_TARGET_PACKAGE)"
 	@echo -e "\t MD5: `cat $(FURRY_TARGET_PACKAGE).md5sum | awk '{print $$1}' `"
 	@echo -e "\t Size: `du -sh $(FURRY_TARGET_PACKAGE) | awk '{print $$1}' `"
-	@echo -e "\t hentaiOS - Hello Furries by The Buxxed Realm"
+	@echo -e "\t hentaiOS - Furry But Straight by The Buxxed Realm"
 	@echo -e "\t =============================================================================================================="
